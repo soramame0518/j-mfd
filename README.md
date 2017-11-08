@@ -13,4 +13,4 @@ Please cite the following paper when you use J-MFD in your published works.
 - Akiko Matsuo, Kazutoshi Sasahara, Yasuhiro Taguchi, and Minoru Karasawa, Development of Japanese Moral Foundations Dictionary: Procedures and Applications (in prep.)
 
 # Acknowledgement
-This research was supported in part by JSPS/MEXT KAKENHI Grant Numbers JP15H03446 and JP17H06383 in \#4903, JST PRESTO Grant Number JPMJPR16D6, and JST CREST Grant Number JP17941861.
+This research was supported in part by JSPS/MEXT KAKENHI Grant Numbers [JP15H03446](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-15H03446/) and [JP17H06383](http://evolinguistics.net/) in \#4903, JST PRESTO Grant Number [JPMJPR16D6](http://www.jst.go.jp/kisoken/presto/project/1112069/1112069_25.html), and JST CREST Grant Number [JP17941861](https://www.jst.go.jp/kisoken/crest/project/1111098/1111098_2017.html).
