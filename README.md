@@ -5,7 +5,7 @@ Moral Foundations Dictionary ([MFD](http://moralfoundations.org/sites/default/fi
 
 ![Schematic Illustration of J-MFD Development](https://github.com/soramame0518/j-mfd/blob/master/misc/J-MFD_development.png)
 
-The J-MFD ("[J-MFD_2017.dic](https://github.com/soramame0518/j-mfd/blob/master/J-MFD_2017.dic)") and a word segmentation program ("[word_segmentation.py](https://github.com/soramame0518/j-mfd/blob/master/word_segmentation.py)") used to segment Japanese sentences into words are publicly available under [MIT Licence](https://opensource.org/licenses/MIT/). If you find problems, please let us know via. "[issues](https://github.com/soramame0518/j-mfd/issues)" function on the this GitHub page. We will use that information for future updates.
+The J-MFD ("[J-MFD_2017.dic](https://github.com/soramame0518/j-mfd/blob/master/J-MFD_2017.dic)") and a word segmentation program ("[word_segmentation.py](https://github.com/soramame0518/j-mfd/blob/master/word_segmentation.py)") used to segment Japanese sentences into words are publicly available under [MIT Licence](https://opensource.org/licenses/MIT/). If you find problems, please let us know via. "[issues](https://github.com/soramame0518/j-mfd/issues)" function on this page. We will use that information for future updates.
 
 # Referece
 Please cite the following paper when you use J-MFD in your published works.
