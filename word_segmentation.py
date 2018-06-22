@@ -1,8 +1,7 @@
 # coding:utf-8
 # word_segmentation.py
 # by Yasuhiro Taguchi and Kazutoshi Sasahara
-# Last update: 2017.11.08
-# Released under the MIT license
+# Last update: 2018.06.22 Released under the MIT license
 
 # This program segments Japanese sentences into words.
 # This preprosessing is required before using J-MFD.
@@ -33,7 +32,7 @@ if __name__ == '__main__':
     segmented_str = ''
 
     # input texts and segment into words
-    with open(fpath) as f:
+    with open(fpath, encoding='utf-8') as f:
         for line in f:
             m.parse('')
             node = m.parseToNode(line)
@@ -46,5 +45,5 @@ if __name__ == '__main__':
             segmented_str += '\n'
 
     # output segmented texts
-    with open(opath,'w') as f:
+    with open(opath,'w', encoding='utf-8') as f:
         f.write(segmented_str)
