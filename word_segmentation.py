@@ -5,12 +5,10 @@
 
 # This program segments Japanese sentences into words.
 # This preprosessing is required before using J-MFD.
-# Fist, you need to install Anaconda (Python3.6), MeCab, mecab-python3, and neologd.
-# - Anaconda https://www.anaconda.com/
-# - MeCab http://taku910.github.io/mecab/
-# - mecab-python3 https://github.com/SamuraiT/mecab-python3
-# - neologd https://github.com/neologd/mecab-ipadic-neologd
-# Second, set neologd_path.
+# Fist, install Anaconda (Python3.6) https://www.anaconda.com/
+# Second, install MeCab related packages:
+# In the case of Ubuntu: sudo apt-get install mecab libmecab-dev mecab-ipadic-utf8; pip install mecab-python3
+# In the case of Mac (Homebrew): brew install mecab mecab-ipadic; pip install mecab-python3
 # Then, type
 # python word_segmentation.py -f input.txt
 
@@ -24,8 +22,7 @@ fpath = parser.parse_args().file
 opath = fpath.split('.')[0] + '_segmented.txt'
 
 # change this based on your environment
-#neologd_path = '/usr/local/lib/mecab/dic/mecab-ipadic-neologd'
-ipadic_path = '/usr/local/lib/mecab/dic/ipadic'
+# ipadic_path = '/usr/local/lib/mecab/dic/ipadic'
 
 dic_words = ['等価物' ,'先入主' ,'先取権' ,'生活共同体' ,'同盟国' ,'利己主義' ,'諜報部員' ,'恐怖政治' ,'入国管理' ,'創始者' ,'資本家階級' ,'有産階級' ,'社会的地位' ,'最高位' ,'聖職者' ,'危険人物' ,'不従順' ,'運動員' ,'法律違反' ,'尻軽女' ,'不敬虔' ,'嘔吐物' ,'無差別' ,'変質者']
 
