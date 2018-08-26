@@ -1,7 +1,7 @@
 # coding:utf-8
 # word_segmentation.py
 # by Yasuhiro Taguchi and Kazutoshi Sasahara
-# Last update: 2018.06.22 Released under the MIT license
+# Last update: 2018.08.26 Released under the MIT license
 
 # This program segments Japanese sentences into words.
 # This preprosessing is required before using J-MFD.
@@ -20,9 +20,7 @@ parser = argparse.ArgumentParser(description='')
 parser.add_argument('-f','--file',required=True)
 fpath = parser.parse_args().file
 opath = fpath.split('.')[0] + '_segmented.txt'
-
-# change this based on your environment
-# ipadic_path = '/usr/local/lib/mecab/dic/ipadic'
+ipadic_path = '/usr/local/lib/mecab/dic/ipadic'
 
 dic_words = ['等価物' ,'先入主' ,'先取権' ,'生活共同体' ,'同盟国' ,'利己主義' ,'諜報部員' ,'恐怖政治' ,'入国管理' ,'創始者' ,'資本家階級' ,'有産階級' ,'社会的地位' ,'最高位' ,'聖職者' ,'危険人物' ,'不従順' ,'運動員' ,'法律違反' ,'尻軽女' ,'不敬虔' ,'嘔吐物' ,'無差別' ,'変質者']
 
