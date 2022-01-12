@@ -10,7 +10,7 @@ The J-MFD ("[J-MFD_2018.dic](https://github.com/soramame0518/j-mfd/blob/master/J
 # Reference
 Please cite the following paper when you use the J-MFD in your published works.
 
-- A. Matsuo, [K. Sasahara](http://www.colorlessgreen.info/), Y. Taguchi, and M. Karasawa, Development and Validation of the Japanese Moral Foundations Dictionary, [PLoS ONE 14(3): e0213343 (2009)](https://doi.org/10.1371/journal.pone.0213343).
+- A. Matsuo, [K. Sasahara](http://www.colorlessgreen.info/), Y. Taguchi, and M. Karasawa, Development and Validation of the Japanese Moral Foundations Dictionary, [PLoS ONE 14(3): e0213343 (2019)](https://doi.org/10.1371/journal.pone.0213343).
 
 # Acknowledgement
 This research was supported in part by JSPS/MEXT KAKENHI Grant Numbers [JP15H03446](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-15H03446/) and [JP17H06383](http://evolinguistics.net/) in \#4903, JST PRESTO Grant Number [JPMJPR16D6](http://www.jst.go.jp/kisoken/presto/project/1112069/1112069_25.html), and JST CREST Grant Number [JPMJCR17A4](http://www.er.ams.eng.osaka-u.ac.jp/kawai/crest/).
